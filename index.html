@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Utsman — Asisten AI untuk Pekerjaan Kantor, Pribadi, dan Organisasi</title>
+<meta name="description" content="Utsman adalah asisten AI yang membantu pekerjaan kantor, kebutuhan pribadi, dan urusan organisasi: mencatat, menyusun laporan, mengingatkan jadwal. Segera hadir.">
+<link rel="canonical" href="https://utsman.works/">
+<link rel="alternate" hreflang="id" href="https://utsman.works/">
+<link rel="alternate" hreflang="en" href="https://utsman.works/?lang=en">
+<link rel="alternate" hreflang="su" href="https://utsman.works/?lang=su">
+<link rel="alternate" hreflang="x-default" href="https://utsman.works/">
+<meta name="theme-color" content="#101c33">
+<meta name="author" content="Utsman">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Utsman">
+<meta property="og:locale" content="id_ID">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="su_ID">
+<meta property="og:url" content="https://utsman.works/">
+<meta property="og:title" content="Utsman — Asisten AI untuk Pekerjaan Kantor, Pribadi, dan Organisasi">
+<meta property="og:description" content="Mencatat, menyusun laporan, mengingatkan jadwal, dan menyelesaikan pekerjaan kecil yang menumpuk — untuk kantor, pribadi, dan organisasi.">
+<meta property="og:image" content="https://utsman.works/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Utsman — asisten AI untuk pekerjaan sehari-hari">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Utsman — Asisten AI untuk Pekerjaan Kantor, Pribadi, dan Organisasi">
+<meta name="twitter:description" content="Mencatat, menyusun laporan, mengingatkan jadwal — untuk kantor, pribadi, dan organisasi.">
+<meta name="twitter:image" content="https://utsman.works/assets/og-image.png">
+
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/favicon.svg">
+<link rel="preload" as="image" href="/assets/utsman-card.jpg">
+<link rel="stylesheet" href="/css/style.css?v=20261005-5">
+<script>document.documentElement.classList.add("js-anim");</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://utsman.works/#website",
+      "url": "https://utsman.works/",
+      "name": "Utsman",
+      "inLanguage": ["id-ID", "en", "su-ID"],
+      "description": "Asisten AI untuk pekerjaan kantor, kebutuhan pribadi, dan urusan organisasi."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://utsman.works/#organization",
+      "name": "Utsman",
+      "url": "https://utsman.works/",
+      "email": "bahzimadina@gmail.com",
+      "logo": "https://utsman.works/assets/favicon.svg",
+      "image": "https://utsman.works/assets/utsman.jpg"
+    },
+    {
+      "@type": "Service",
+      "name": "Asisten AI Utsman",
+      "serviceType": "Asisten AI untuk pekerjaan kantor, pribadi, dan organisasi",
+      "provider": { "@id": "https://utsman.works/#organization" },
+      "areaServed": { "@type": "Country", "name": "Indonesia" },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Pekerja kantor, profesional, pengurus organisasi"
+      },
+      "description": "Mencatat dan merangkum, menyusun laporan dan surat, mengingatkan jadwal, mengolah data keuangan, serta menyelesaikan pekerjaan kecil yang menumpuk.",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/PreOrder",
+        "priceCurrency": "IDR",
+        "description": "Segera hadir. Kirim email untuk diberi tahu."
+      },
+      "isRelatedTo": [
+        { "@type": "SoftwareApplication", "name": "Hermes Agent", "applicationCategory": "AI agent platform" },
+        { "@type": "Thing", "name": "Model bahasa besar (LLM)" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Lewati ke konten utama</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Utsman">
+      <svg class="brand-mark" viewBox="0 0 32 32" role="img" aria-hidden="true">
+        <circle cx="16" cy="16" r="15" fill="#101c33"/>
+        <path d="M16 6c1.9 2.2 2.8 4.6 2.8 7.4 0 3-1 5.6-2.8 7.7-1.8-2.1-2.8-4.7-2.8-7.7C13.2 10.6 14.1 8.2 16 6z" fill="#e3c675"/>
+        <circle cx="16" cy="24.6" r="2.1" fill="#b98b1e"/>
+      </svg>
+      <span class="brand-name">Utsman</span>
+    </a>
+
+    <nav class="nav" aria-label="Navigasi utama" data-i18n-aria="nav.aria">
+      <a href="#kagunaan" data-i18n="nav.usage">Kegunaan</a>
+      <a href="#cara" data-i18n="nav.how">Cara kerja</a>
+      <a href="#teknologi" data-i18n="nav.tech">Teknologi</a>
+      <a href="#aman" data-i18n="nav.secure">Keamanan</a>
+
+      <div class="lang-switch" role="group" aria-label="Pilih bahasa" data-i18n-aria="lang.aria">
+        <button type="button" class="lang-btn is-on" data-lang="id" aria-pressed="true" title="Bahasa Indonesia" data-i18n-title="lang.id">ID</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false" title="English" data-i18n-title="lang.en">EN</button>
+        <button type="button" class="lang-btn" data-lang="su" aria-pressed="false" title="Bahasa Sunda" data-i18n-title="lang.su">SU</button>
+      </div>
+
+      <a class="nav-cta" href="mailto:bahzimadina@gmail.com?subject=Utsman.works%20—%20beri%20tahu%20saya" data-i18n="nav.cta">Coming soon</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow" data-i18n="hero.eyebrow">Agen AI untuk pekerjaan sehari-hari</p>
+        <h1 data-i18n-html="hero.h1">Pekerjaan kecil yang menumpuk, <span class="accent">diselesaikan</span> oleh satu asisten.</h1>
+        <p class="lede" data-i18n="hero.lede">
+          Utsman mencatat, merangkum, menyusun, dan mengingatkan — untuk urusan kantor, kebutuhan pribadi,
+          maupun kegiatan organisasi. Anda cukup menyebut apa yang perlu dikerjakan, dengan bahasa sehari-hari.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:bahzimadina@gmail.com?subject=Utsman.works%20—%20beri%20tahu%20saya" data-i18n="hero.cta1">
+            Beri tahu saya saat siap
+          </a>
+          <a class="btn btn-ghost" href="#kagunaan" data-i18n="hero.cta2">Lihat kegunaannya</a>
+        </div>
+        <p class="hero-note" data-i18n-html="hero.note">Masih disiapkan. Ingin dihubungi saat siap? <a href="mailto:bahzimadina@gmail.com?subject=Utsman.works%20—%20beri%20tahu%20saya">Kirim email</a>.</p>
+      </div>
+
+      <!-- Kartu profil: foto Utsman (asisten AI) -->
+      <div class="profile-card reveal">
+        <div class="profile-photo">
+          <img src="/assets/utsman-card.jpg" width="600" height="784"
+               alt="Utsman, asisten AI, memakai peci hitam dan kaus abu-abu" data-i18n-alt="hero.photo.alt"
+               fetchpriority="high" decoding="async">
+          <span class="profile-badge" data-i18n="hero.status">Segera hadir</span>
+        </div>
+        <div class="profile-meta">
+          <p class="profile-name">Utsman</p>
+          <p class="profile-role" data-i18n="hero.role">Asisten AI untuk kantor, pribadi, dan organisasi</p>
+          <ul class="profile-chips">
+            <li data-i18n="hero.chip1">WhatsApp</li>
+            <li data-i18n="hero.chip2">Telegram</li>
+            <li data-i18n="hero.chip3">Email</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MASALAH ================= -->
+  <section class="band" aria-labelledby="t-beres">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2 id="t-beres" data-i18n="m.head">Yang tadinya menumpuk, kini beres.</h2>
+        <p data-i18n="m.sub">Pekerjaan kecil itu tidak sulit — hanya banyak dan saling mengejar. Ini yang berubah setelah diserahkan.</p>
+      </div>
+      <div class="pairs reveal">
+        <div class="pair"><span class="pair-x" aria-hidden="true">✕</span><p class="before" data-i18n="m.b1">Email, catatan, dan berkas tersebar di tiga tempat.</p></div>
+        <div class="pair"><span class="pair-check" aria-hidden="true">✓</span><p class="after" data-i18n="m.a1">Terkumpul jadi satu laporan yang jelas.</p></div>
+        <div class="pair"><span class="pair-x" aria-hidden="true">✕</span><p class="before" data-i18n="m.b2">Jadwal bentrok, ada yang terlewat.</p></div>
+        <div class="pair"><span class="pair-check" aria-hidden="true">✓</span><p class="after" data-i18n="m.a2">Diingatkan sebelum jadi masalah.</p></div>
+        <div class="pair"><span class="pair-x" aria-hidden="true">✕</span><p class="before" data-i18n="m.b3">Input data pagi-pagi, masih ada yang dobel.</p></div>
+        <div class="pair"><span class="pair-check" aria-hidden="true">✓</span><p class="after" data-i18n="m.a3">Dicatat sekali, diperiksa dua kali.</p></div>
+        <div class="pair"><span class="pair-x" aria-hidden="true">✕</span><p class="before" data-i18n="m.b4">Menyusun surat, poster, atau laporan selalu lama.</p></div>
+        <div class="pair"><span class="pair-check" aria-hidden="true">✓</span><p class="after" data-i18n="m.a4">Selesai dalam hitungan menit, Anda tinggal memeriksa.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KAGUNAAN ================= -->
+  <section id="kagunaan" aria-labelledby="t-guna">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2 id="t-guna" data-i18n="u.head">Tiga tempat Utsman paling membantu</h2>
+        <p data-i18n="u.sub">Satu asisten, tiga jenis pekerjaan. Bisa dipakai salah satu, bisa juga semuanya.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-photo"><img src="/assets/asisten-kerja.jpg" width="720" height="540" alt="Utsman, asisten untuk pekerjaan kantor, memakai blazer" data-i18n-alt="u.k.alt" loading="lazy" decoding="async"></div>
+          <h3 data-i18n="u.k.title">Kantor</h3>
+          <p data-i18n="u.k.p">Pekerjaan administrasi yang menyita waktu.</p>
+          <ul>
+            <li data-i18n="u.k.l1">Merangkum rapat jadi notulen dan daftar tugas</li>
+            <li data-i18n="u.k.l2">Menyusun surat, laporan, dan bahan presentasi</li>
+            <li data-i18n="u.k.l3">Menyiapkan data sebelum rapat atau evaluasi</li>
+          </ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-photo"><img src="/assets/asisten-pribadi.jpg" width="720" height="540" alt="Utsman, asisten untuk urusan pribadi, memakai hoodie" data-i18n-alt="u.p.alt" loading="lazy" decoding="async"></div>
+          <h3 data-i18n="u.p.title">Pribadi</h3>
+          <p data-i18n="u.p.p">Urusan sehari-hari yang mudah terlewat.</p>
+          <ul>
+            <li data-i18n="u.p.l1">Mengingatkan jadwal, tagihan, dan tanggal penting</li>
+            <li data-i18n="u.p.l2">Membantu menyusun rencana dan target pribadi</li>
+            <li data-i18n="u.p.l3">Merapikan catatan jadi tulisan yang beres</li>
+          </ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-photo"><img src="/assets/asisten-organisasi.jpg" width="720" height="540" alt="Utsman, asisten untuk urusan organisasi, memakai kemeja biru" data-i18n-alt="u.o.alt" loading="lazy" decoding="async"></div>
+          <h3 data-i18n="u.o.title">Organisasi</h3>
+          <p data-i18n="u.o.p">Urusan bersama yang perlu transparan.</p>
+          <ul>
+            <li data-i18n="u.o.l1">Mencatat keuangan (kas, infak, donasi) dengan pemeriksaan otomatis</li>
+            <li data-i18n="u.o.l2">Membuat laporan kegiatan dan pengumuman</li>
+            <li data-i18n="u.o.l3">Mengelola data anggota, peserta, dan jadwal kegiatan</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CARA KERJA ================= -->
+  <section class="band" id="cara" aria-labelledby="t-cara">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2 id="t-cara" data-i18n="c.head">Cara kerjanya sederhana</h2>
+        <p data-i18n="c.sub">Tidak perlu belajar aplikasi baru. Tiga langkah, jalan.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-num" aria-hidden="true">1</div>
+          <h3 data-i18n="c.s1.t">Hubungkan</h3>
+          <p data-i18n="c.s1.p">Lewat WhatsApp, Telegram, atau email yang sudah dipakai sehari-hari.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num" aria-hidden="true">2</div>
+          <h3 data-i18n="c.s2.t">Sebutkan tugasnya</h3>
+          <p data-i18n="c.s2.p">Bahasa sehari-hari saja. Tidak perlu merumuskan perintah yang rumit.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num" aria-hidden="true">3</div>
+          <h3 data-i18n="c.s3.t">Anda yang memutuskan</h3>
+          <p data-i18n="c.s3.p">Utsman mengerjakan lalu melaporkan hasilnya. Keputusan tetap di Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTO TUGAS ================= -->
+  <section aria-labelledby="t-conto">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2 id="t-conto" data-i18n="e.head">Contoh pekerjaan yang bisa diserahkan</h2>
+        <p data-i18n="e.sub">Ini baru sebagian. Kalau bisa dijelaskan, biasanya bisa dikerjakan.</p>
+      </div>
+      <ul class="chips reveal" style="list-style:none;padding:0">
+        <li class="chip" data-i18n="e.c1">Merangkum rapat</li>
+        <li class="chip" data-i18n="e.c2">Menyusun laporan bulanan</li>
+        <li class="chip" data-i18n="e.c3">Membuat poster kegiatan</li>
+        <li class="chip" data-i18n="e.c4">Mencatat keuangan organisasi</li>
+        <li class="chip" data-i18n="e.c5">Mengingatkan jadwal dan tagihan</li>
+        <li class="chip" data-i18n="e.c6">Menyiapkan surat resmi</li>
+        <li class="chip" data-i18n="e.c7">Menyusun bahan presentasi</li>
+        <li class="chip" data-i18n="e.c8">Merapikan data peserta</li>
+        <li class="chip" data-i18n="e.c9">Membuat ringkasan bacaan</li>
+        <li class="chip" data-i18n="e.c10">Mencari data yang tidak cocok</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= TEKNOLOGI ================= -->
+  <section class="band" id="teknologi" aria-labelledby="t-teknologi">
+    <div class="wrap">
+      <div class="tech-intro">
+        <div class="section-head reveal" style="margin-bottom:0">
+          <p class="eyebrow" data-i18n="t.eyebrow">Di balik layar</p>
+          <h2 id="t-teknologi" style="margin-top:18px" data-i18n="t.head">Teknologi yang menjalankannya</h2>
+          <p data-i18n="t.sub">Utsman bukan satu aplikasi tunggal. Ia berdiri di atas beberapa lapisan yang sudah terbukti, dan lapisan itu bisa diganti sesuai kebutuhan.</p>
+          <p class="tech-note" data-i18n="t.note">Pilihan teknologinya mengikuti kebutuhan. Yang penting: hasilnya rapi, bisa diperiksa, dan datanya tetap di tangan Anda.</p>
+        </div>
+
+        <div class="hero-art tech-art" aria-hidden="true">
+          <svg viewBox="0 0 540 470" role="img" aria-label="Ilustrasi asisten AI yang mengerjakan beberapa tugas sekaligus">
+            <defs>
+              <linearGradient id="g-doc" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f2ede1"/>
+              </linearGradient>
+              <linearGradient id="g-gold" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f0d99c"/><stop offset="1" stop-color="#b98b1e"/>
+              </linearGradient>
+              <radialGradient id="g-core" cx="50%" cy="38%" r="65%">
+                <stop offset="0" stop-color="#2a3c62"/><stop offset="1" stop-color="#101c33"/>
+              </radialGradient>
+              <clipPath id="clip-face"><circle cx="0" cy="0" r="64"/></clipPath>
+              <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+                <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#101c33" flood-opacity="0.16"/>
+              </filter>
+            </defs>
+
+            <ellipse cx="270" cy="392" rx="196" ry="26" fill="#101c33" opacity="0.07"/>
+
+            <!-- orbit lines -->
+            <g fill="none" stroke="#cbb98c" stroke-width="1.4" opacity="0.7">
+              <ellipse cx="270" cy="228" rx="196" ry="150" stroke-dasharray="5 7"/>
+              <ellipse cx="270" cy="228" rx="140" ry="212" stroke-dasharray="4 9" opacity="0.6"/>
+            </g>
+
+            <!-- document card -->
+            <g filter="url(#soft)" transform="translate(38 70) rotate(-6)">
+              <rect width="150" height="190" rx="14" fill="url(#g-doc)" stroke="#e3ddd0"/>
+              <rect x="20" y="24" width="72" height="9" rx="4.5" fill="#101c33" opacity="0.85"/>
+              <rect x="20" y="46" width="110" height="6" rx="3" fill="#9aa6bb"/>
+              <rect x="20" y="62" width="96" height="6" rx="3" fill="#9aa6bb"/>
+              <rect x="20" y="78" width="104" height="6" rx="3" fill="#9aa6bb"/>
+              <rect x="20" y="106" width="110" height="30" rx="8" fill="#f6efdd"/>
+              <path d="M32 126l10-9 9 6 13-13" fill="none" stroke="#b98b1e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+
+            <!-- chat card -->
+            <g filter="url(#soft)" transform="translate(370 46)">
+              <rect width="150" height="112" rx="14" fill="#ffffff" stroke="#e3ddd0"/>
+              <rect x="16" y="20" width="80" height="8" rx="4" fill="#101c33" opacity="0.8"/>
+              <rect x="16" y="38" width="110" height="6" rx="3" fill="#aab4c6"/>
+              <rect x="16" y="56" width="86" height="6" rx="3" fill="#aab4c6"/>
+              <g transform="translate(96 66)">
+                <circle cx="0" cy="0" r="20" fill="url(#g-gold)"/>
+                <path d="M-7 8C-2 2.6 2 2.6 7 8" stroke="#3a2a05" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+                <circle cx="-4" cy="-3" r="1.7" fill="#3a2a05"/><circle cx="4" cy="-3" r="1.7" fill="#3a2a05"/>
+              </g>
+            </g>
+
+            <!-- calendar card -->
+            <g filter="url(#soft)" transform="translate(352 250) rotate(4)">
+              <rect width="152" height="120" rx="14" fill="#ffffff" stroke="#e3ddd0"/>
+              <rect x="0" y="0" width="152" height="30" rx="14" fill="#101c33"/>
+              <rect x="0" y="20" width="152" height="10" fill="#101c33"/>
+              <rect x="18" y="42" width="20" height="16" rx="5" fill="#f0e6cf"/>
+              <rect x="46" y="42" width="20" height="16" rx="5" fill="#e3c675"/>
+              <rect x="74" y="42" width="20" height="16" rx="5" fill="#f0e6cf"/>
+              <rect x="18" y="66" width="20" height="16" rx="5" fill="#f0e6cf"/>
+              <rect x="46" y="66" width="20" height="16" rx="5" fill="#f0e6cf"/>
+              <rect x="74" y="66" width="20" height="16" rx="5" fill="#b98b1e"/>
+              <rect x="102" y="42" width="20" height="40" rx="5" fill="#f7f3e9"/>
+            </g>
+
+            <!-- agent core (foto Utsman, dipotong buleud) -->
+            <g transform="translate(270 228)">
+              <circle r="72" fill="url(#g-core)" opacity="0.25"/>
+              <image href="/assets/utsman-core.jpg" x="-64" y="-64" width="128" height="128"
+                     clip-path="url(#clip-face)" preserveAspectRatio="xMidYMid slice"/>
+              <circle r="64" fill="none" stroke="#e3c675" stroke-width="2.4"/>
+              <circle r="70" fill="none" stroke="#e3c675" stroke-width="1" opacity="0.45"/>
+              <g stroke="#e3c675" stroke-width="2" stroke-linecap="round" opacity="0.85">
+                <path d="M-78-38l-16-14"/><path d="M78-30l16-12"/><path d="M-84 44l-18 12"/><path d="M84 50l18 14"/>
+              </g>
+              <circle cx="-94" cy="-52" r="4" fill="#b98b1e"/><circle cx="94" cy="-42" r="4" fill="#b98b1e"/>
+              <circle cx="-102" cy="56" r="4" fill="#b98b1e"/><circle cx="102" cy="64" r="4" fill="#b98b1e"/>
+            </g>
+
+            <!-- checklist strip -->
+            <g filter="url(#soft)" transform="translate(56 288) rotate(3)">
+              <rect width="164" height="84" rx="14" fill="#ffffff" stroke="#e3ddd0"/>
+              <g transform="translate(18 22)">
+                <rect width="18" height="18" rx="5" fill="#1f7a52"/>
+                <path d="M4 9l4 4 7-8" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="28" y="3" width="94" height="7" rx="3.5" fill="#9aa6bb"/>
+              </g>
+              <g transform="translate(18 50)">
+                <rect width="18" height="18" rx="5" fill="#e3c675"/>
+                <rect x="28" y="3" width="70" height="7" rx="3.5" fill="#c3cbd8"/>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="tech-grid">
+        <article class="tech-item reveal">
+          <span class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+          </span>
+          <h3 data-i18n="t.1.t">Hermes Agent</h3>
+          <p data-i18n="t.1.p">Platform agen yang menjalankan tugas, memakai alat (terminal, peramban, berkas), dan menjaga konteks pekerjaan.</p>
+        </article>
+
+        <article class="tech-item reveal">
+          <span class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="3"/><path d="M10 3v3M14 3v3M10 18v3M14 18v3M3 10h3M3 14h3M18 10h3M18 14h3"/></svg>
+          </span>
+          <h3 data-i18n="t.2.t">Model bahasa (LLM)</h3>
+          <p data-i18n="t.2.p">Model kecerdasan buatan untuk memahami permintaan dan menyusun hasil — dipilih sesuai jenis tugas, mutu, dan biaya.</p>
+        </article>
+
+        <article class="tech-item reveal">
+          <span class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="3"/><circle cx="17" cy="7" r="3"/><circle cx="12" cy="17" r="3"/><path d="M9 9l2 5M15 9l-2 5M10 7h4"/></svg>
+          </span>
+          <h3 data-i18n="t.3.t">Agen spesialis</h3>
+          <p data-i18n="t.3.p">Beberapa agen dengan keahlian berbeda: penulisan, riset, gambar, dan pemeriksaan hasil sebelum dikirim.</p>
+        </article>
+
+        <article class="tech-item reveal">
+          <span class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7H7a4 4 0 000 8h2M15 7h2a4 4 0 010 8h-2"/><path d="M9 11h6"/></svg>
+          </span>
+          <h3 data-i18n="t.4.t">Integrasi data (MCP)</h3>
+          <p data-i18n="t.4.p">Tersambung ke aplikasi kerja seperti pembukuan dan arsip, jadi data tidak perlu disalin manual.</p>
+        </article>
+
+        <article class="tech-item reveal">
+          <span class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>
+          </span>
+          <h3 data-i18n="t.5.t">Otomasi terjadwal</h3>
+          <p data-i18n="t.5.p">Tugas rutin berjalan sendiri pada waktunya: pengingat, rekap, dan pengumuman.</p>
+        </article>
+
+        <article class="tech-item reveal">
+          <span class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v10H8l-4 4V6z"/><path d="M8 10h8M8 13h5"/></svg>
+          </span>
+          <h3 data-i18n="t.6.t">Saluran yang sudah dipakai</h3>
+          <p data-i18n="t.6.p">WhatsApp, Telegram, dan email. Tidak ada aplikasi baru yang harus dipelajari.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KEAMANAN ================= -->
+  <section id="aman" aria-labelledby="t-aman">
+    <div class="wrap">
+      <div class="trust reveal">
+        <div class="section-head" style="margin-bottom:0">
+          <h2 id="t-aman" data-i18n="a.head">Anda yang memegang datanya</h2>
+          <p data-i18n="a.sub">Asisten untuk pekerjaan harus bisa dipercaya. Ini prinsipnya.</p>
+        </div>
+        <div class="trust-grid">
+          <div class="trust-item">
+            <h3><span class="tick" aria-hidden="true">✓</span> <span data-i18n="a.i1.t">Berjalan di server Anda</span></h3>
+            <p data-i18n="a.i1.p">Data dan riwayat pekerjaan tidak keluar dari sistem yang Anda kendalikan.</p>
+          </div>
+          <div class="trust-item">
+            <h3><span class="tick" aria-hidden="true">✓</span> <span data-i18n="a.i2.t">Aksesnya dibatasi</span></h3>
+            <p data-i18n="a.i2.p">Siapa boleh menjalankan apa, tercatat dan bisa ditinjau kapan saja.</p>
+          </div>
+          <div class="trust-item">
+            <h3><span class="tick" aria-hidden="true">✓</span> <span data-i18n="a.i3.t">Bukan bahan pelatihan</span></h3>
+            <p data-i18n="a.i3.p">Isi pekerjaan Anda tidak dipakai untuk melatih model pihak ketiga.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="cta" aria-labelledby="t-cta">
+    <div class="wrap">
+      <div class="cta-inner reveal">
+        <h2 id="t-cta" data-i18n="cta.head">Masih disiapkan</h2>
+        <p data-i18n="cta.p">
+          Utsman sedang dibangun bertahap. Ingin diberi tahu saat siap — atau ingin membahas pemakaiannya
+          untuk kantor, kebutuhan pribadi, atau organisasi Anda? Kirim email saja.
+        </p>
+        <a class="btn btn-gold" href="mailto:bahzimadina@gmail.com?subject=Utsman.works%20—%20beri%20tahu%20saya&amp;body=Assalamualaikum%2C%20saya%20ingin%20diberi%20tahu%20saat%20Utsman%20siap." data-i18n="cta.btn">
+          Kirim email
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p data-i18n="f.rights">© 2026 Utsman · utsman.works</p>
+    <div class="foot-links">
+      <a href="#kagunaan" data-i18n="nav.usage">Kegunaan</a>
+      <a href="#cara" data-i18n="nav.how">Cara kerja</a>
+      <a href="#teknologi" data-i18n="nav.tech">Teknologi</a>
+      <a href="mailto:bahzimadina@gmail.com?subject=Utsman.works%20—%20beri%20tahu%20saya" data-i18n="f.email">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/i18n.js?v=20261005-1" defer></script>
+<script>
+  // Animasi muncul perlahan — dilewati bila pengguna memilih mengurangi gerakan.
+  (function () {
+    var items = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window) ||
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      items.forEach(function (el) { el.classList.add('is-in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) { entry.target.classList.add('is-in'); io.unobserve(entry.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+    items.forEach(function (el) { io.observe(el); });
+
+    setTimeout(function () {
+      var kari = document.querySelectorAll('.reveal:not(.is-in)');
+      if (kari.length) { kari.forEach(function (el) { el.classList.add('is-in'); }); }
+    }, 2500);
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+services:
+  utsman-works:
+    build: .
+    image: utsman-works:latest
+    container_name: utsman-works
+    restart: unless-stopped
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    external: true
