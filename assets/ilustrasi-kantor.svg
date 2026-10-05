@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 132" width="220" height="132" role="img" aria-label="Meja kantor jeung dokumén">
+<defs><linearGradient id="k1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f2ede1"/></linearGradient></defs>
+<rect x="14" y="96" width="192" height="8" rx="4" fill="#101c33" opacity=".1"/>
+<rect x="34" y="26" width="66" height="62" rx="8" fill="url(#k1)" stroke="#e3ddd0"/>
+<rect x="44" y="38" width="34" height="6" rx="3" fill="#101c33" opacity=".8"/>
+<rect x="44" y="52" width="44" height="4.5" rx="2.2" fill="#aab4c6"/>
+<rect x="44" y="62" width="38" height="4.5" rx="2.2" fill="#aab4c6"/>
+<rect x="44" y="72" width="42" height="4.5" rx="2.2" fill="#c3cbd8"/>
+<g><rect x="104" y="34" width="82" height="54" rx="8" fill="#101c33"/>
+<rect x="112" y="42" width="66" height="38" rx="5" fill="#1b2b4a"/>
+<path d="M120 70l12-12 10 7 16-17" fill="none" stroke="#e3c675" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170" cy="52" r="3" fill="#b98b1e"/></g>
+<rect x="86" y="90" width="118" height="7" rx="3.5" fill="#e8e2d5"/>
+<g transform="translate(20 78)"><rect width="30" height="22" rx="5" fill="#b98b1e" opacity=".85"/><rect x="4" y="-10" width="22" height="14" rx="4" fill="#1f7a52" opacity=".8"/></g>
+<circle cx="196" cy="26" r="10" fill="#f6efdd"/><path d="M192 26h8M196 22v8" stroke="#b98b1e" stroke-width="2" stroke-linecap="round"/>
+</svg>
