@@ -6,6 +6,10 @@ services:
     restart: unless-stopped
     networks:
       - webnet
+    volumes:
+      # hasil blog (diwangun ku /home/ubuntu/utsman-blog/sync.sh) — disajikan dina /blog
+      # read-only: kontainer teu tiasa ngarobih eusi
+      - /home/ubuntu/utsman-blog/out:/usr/share/nginx/html/blog:ro
 
 networks:
   webnet:
