@@ -307,6 +307,31 @@ h2 {
   .tech-grid { grid-template-columns: 1fr 1fr; }
   .profile-card { margin: 0 auto; }
 }
+
+/* ---------- Utsman Device ---------- */
+.device-grid {
+  display: grid; grid-template-columns: 1.05fr .95fr; gap: 52px; align-items: center;
+}
+.device-lede { color: var(--ink-soft); font-size: 17.5px; margin: 0 0 22px; max-width: 38em; }
+.device-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 11px; color: var(--ink-soft); font-size: 16px; }
+.device-list li { position: relative; padding-left: 24px; }
+.device-list li::before {
+  content: "✓"; position: absolute; left: 0; top: 0;
+  color: #1f7a52; font-weight: 700;
+}
+.device-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md); padding: 14px; max-width: 440px; margin-left: auto;
+}
+.device-photo { position: relative; border-radius: 18px; overflow: hidden; background: #ecebe6; }
+.device-photo img {
+  width: 100%; height: auto; aspect-ratio: 3 / 4;
+  object-fit: cover; object-position: 50% 60%;
+}
+@media (max-width: 940px) {
+  .device-grid { grid-template-columns: 1fr; gap: 32px; }
+  .device-card { margin: 0 auto; }
+}
 @media (max-width: 640px) { .tech-grid { grid-template-columns: 1fr; } }
 
 /* Layar keleutik: rapetkeun header supaya pemilih basa jeung CTA tetep muat */

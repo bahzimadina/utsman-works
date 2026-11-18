@@ -17,6 +17,7 @@
       'nav.usage': 'Kegunaan',
       'nav.how': 'Cara kerja',
       'nav.tech': 'Teknologi',
+      'nav.device': 'Perangkat',
       'nav.blog': 'Blog',
       'nav.secure': 'Keamanan',
       'nav.cta': 'Coming soon',
@@ -33,7 +34,7 @@
       'hero.note': 'Masih disiapkan. Ingin dihubungi saat siap? <a href="mailto:bahzimadina@gmail.com?subject=Utsman.works%20—%20beri%20tahu%20saya">Kirim email</a>.',
       'hero.status': 'Segera hadir',
       'hero.role': 'Asisten AI untuk kantor, pribadi, dan organisasi',
-      'hero.chip1': 'WhatsApp', 'hero.chip2': 'Telegram', 'hero.chip3': 'Email',
+      'hero.chip1': 'WhatsApp', 'hero.chip2': 'Telegram', 'hero.chip3': 'Email', 'hero.chip4': 'Utsman Device',
       'hero.photo.alt': 'Utsman, asisten AI, mengenakan peci hitam dan kemeja biru tua',
       'hero.art.alt': 'Ilustrasi asisten AI yang mengerjakan beberapa tugas sekaligus',
 
@@ -102,6 +103,17 @@
       't.6.p': 'WhatsApp, Telegram, dan email. Tidak ada aplikasi baru yang harus dipelajari.',
       't.note': 'Pilihan teknologinya mengikuti kebutuhan. Yang penting: hasilnya rapi, bisa diperiksa, dan datanya tetap di tangan Anda.',
 
+      'd.eyebrow': 'Dalam pengembangan · Perangkat fisik',
+      'd.head': 'Utsman Device',
+      'd.sub': 'Selain lewat WhatsApp dan Telegram, Utsman sedang dikembangkan dalam bentuk perangkat meja berbasis SenseCAP Watcher — siap diajak bicara dan memproses tangkapan kamera langsung di jaringan lokal.',
+      'd.l1': 'Tampilan layar bundar penuh 360×360 dengan antarmuka "Mendengarkan..."',
+      'd.l2': 'Tersambung ke server lokal utsman.local via MQTT & pengaturan QR Wi-Fi',
+      'd.l3': 'Pengambilan foto kamera resolusi penuh 480×480 untuk analisis server',
+      'd.cta': 'Baca catatan progres',
+      'd.blogHref': '/blog/utsman-device-progres-perangkat-fisik/',
+      'd.badge': 'Prototipe aktif',
+      'd.photo.alt': 'Prototipe Utsman Device berbasis SenseCAP Watcher dengan layar bundar menampilkan avatar Utsman dan status Mendengarkan',
+
       'a.head': 'Anda yang memegang datanya',
       'a.sub': 'Asisten untuk pekerjaan harus bisa dipercaya. Ini prinsipnya.',
       'a.i1.t': 'Berjalan di server Anda',
@@ -129,6 +141,7 @@
       'nav.usage': 'Uses',
       'nav.how': 'How it works',
       'nav.tech': 'Technology',
+      'nav.device': 'Device',
       'nav.blog': 'Blog',
       'nav.secure': 'Security',
       'nav.cta': 'Coming soon',
@@ -145,7 +158,7 @@
       'hero.note': 'Still being built. Want a note when it is ready? <a href="mailto:bahzimadina@gmail.com?subject=Utsman.works%20—%20notify%20me">Send an email</a>.',
       'hero.status': 'Coming soon',
       'hero.role': 'AI assistant for office, personal, and organisational work',
-      'hero.chip1': 'WhatsApp', 'hero.chip2': 'Telegram', 'hero.chip3': 'Email',
+      'hero.chip1': 'WhatsApp', 'hero.chip2': 'Telegram', 'hero.chip3': 'Email', 'hero.chip4': 'Utsman Device',
       'hero.photo.alt': 'Utsman, an AI assistant, wearing a black cap and a dark blue shirt',
       'hero.art.alt': 'Illustration of an AI assistant working on several tasks at once',
 
@@ -214,6 +227,17 @@
       't.6.p': 'WhatsApp, Telegram, and email. No new app to learn.',
       't.note': 'The technology follows the need. What matters is that the result is tidy, checkable, and the data stays in your hands.',
 
+      'd.eyebrow': 'In development · Physical hardware',
+      'd.head': 'Utsman Device',
+      'd.sub': 'Beyond WhatsApp and Telegram, Utsman is also taking shape as a dedicated desk companion built on SenseCAP Watcher — ready to listen and handle camera captures directly on your local network.',
+      'd.l1': 'Full-bleed 360×360 circular preview with the "Mendengarkan..." interface',
+      'd.l2': 'Connected to local utsman.local server over MQTT with Wi-Fi QR setup',
+      'd.l3': 'Full 480×480 camera capture sent to the server for visual analysis',
+      'd.cta': 'Read the progress note',
+      'd.blogHref': '/blog/utsman-device-hardware-progress/',
+      'd.badge': 'Active prototype',
+      'd.photo.alt': 'Utsman Device prototype built on SenseCAP Watcher showing Utsman avatar and listening status on its round display',
+
       'a.head': 'You hold the data',
       'a.sub': 'An assistant used for real work has to be trustworthy. These are the principles.',
       'a.i1.t': 'Runs on your own server',
@@ -241,6 +265,7 @@
       'nav.usage': 'Kagunaan',
       'nav.how': 'Cara gawé',
       'nav.tech': 'Téknologi',
+      'nav.device': 'Pakakas',
       'nav.blog': 'Blog',
       'nav.secure': 'Kaamanan',
       'nav.cta': 'Coming soon',
@@ -257,7 +282,7 @@
       'hero.note': 'Nuju disiapkeun. Hoyong diwartosan nalika sayagi? <a href="mailto:bahzimadina@gmail.com?subject=Utsman.works%20—%20wartosan%20abdi">Kirim email</a>.',
       'hero.status': 'Nuju disiapkeun',
       'hero.role': 'Asisten AI pikeun kantor, pribadi, jeung organisasi',
-      'hero.chip1': 'WhatsApp', 'hero.chip2': 'Telegram', 'hero.chip3': 'Email',
+      'hero.chip1': 'WhatsApp', 'hero.chip2': 'Telegram', 'hero.chip3': 'Email', 'hero.chip4': 'Utsman Device',
       'hero.photo.alt': 'Utsman, asisten AI, maké peci hideung jeung kameja bulao kolot',
       'hero.art.alt': 'Ilustrasi asisten AI nu ngerjakeun sababaraha tugas',
 
@@ -326,6 +351,17 @@
       't.6.p': 'WhatsApp, Telegrám, jeung email. Teu aya aplikasi énggal anu kudu diajar.',
       't.note': 'Pilihan téknologina nurut kana kabutuhan. Nu penting: hasilna rapih, tiasa diparios, jeung datana tetep di anjeun.',
 
+      'd.eyebrow': 'Nuju dikembangkeun · Pakakas fisik',
+      'd.head': 'Utsman Device',
+      'd.sub': 'Salian ti WhatsApp jeung Telegrám, Utsman ogé keur diwangun dina wangun pakakas méja maké papan SenseCAP Watcher — siap diajak nyarita jeung motrét langsung dina jaringan lokal.',
+      'd.l1': 'Tampilan layar buleud pinuh 360×360 kalawan antarbeungeut "Mendengarkan..."',
+      'd.l2': 'Nyambung ka server lokal utsman.local liwat MQTT jeung nyeken QR Wi-Fi',
+      'd.l3': 'Ngirim poto kaméra ukuran pinuh 480×480 pikeun dianalisis ku server',
+      'd.cta': 'Baca catetan kamajuan',
+      'd.blogHref': '/blog/utsman-device-kamajuan-pakakas/',
+      'd.badge': 'Prototipe aktip',
+      'd.photo.alt': 'Prototipe Utsman Device dina papan SenseCAP Watcher némbongkeun avatar Utsman jeung status Mendengarkan dina layar buleud',
+
       'a.head': 'Anjeun nu nyekel datana',
       'a.sub': 'Asisten anu dipaké pikeun pagawéan kudu tiasa dipercaya. Ieu prinsipna.',
       'a.i1.t': 'Jalan di server anjeun',
@@ -386,6 +422,10 @@
     document.querySelectorAll('[data-i18n-title]').forEach(function (el) {
       var v = d[el.getAttribute('data-i18n-title')];
       if (typeof v === 'string') el.setAttribute('title', v);
+    });
+    document.querySelectorAll('[data-i18n-href]').forEach(function (el) {
+      var v = d[el.getAttribute('data-i18n-href')];
+      if (typeof v === 'string') el.setAttribute('href', v);
     });
 
     // judul + déskripsi kaca

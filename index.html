@@ -47,7 +47,7 @@
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/favicon.svg">
 <link rel="preload" as="image" href="/assets/utsman-card.jpg">
-<link rel="stylesheet" href="/css/style.css?v=20261005-6">
+<link rel="stylesheet" href="/css/style.css?v=20261118-1">
 <script>document.documentElement.classList.add("js-anim");</script>
 
 <script type="application/ld+json">
@@ -115,6 +115,7 @@
       <a href="#kagunaan" data-i18n="nav.usage">Kegunaan</a>
       <a href="#cara" data-i18n="nav.how">Cara kerja</a>
       <a href="#teknologi" data-i18n="nav.tech">Teknologi</a>
+      <a href="#device" data-i18n="nav.device">Perangkat</a>
       <a href="/blog/" data-i18n="nav.blog">Blog</a>
       <a href="#aman" data-i18n="nav.secure">Keamanan</a>
 
@@ -165,6 +166,7 @@
             <li data-i18n="hero.chip1">WhatsApp</li>
             <li data-i18n="hero.chip2">Telegram</li>
             <li data-i18n="hero.chip3">Email</li>
+            <li data-i18n="hero.chip4">Utsman Device</li>
           </ul>
         </div>
       </div>
@@ -452,8 +454,38 @@
     </div>
   </section>
 
+  <!-- ================= UTSMAN DEVICE ================= -->
+  <section id="device" aria-labelledby="t-device">
+    <div class="wrap device-grid">
+      <div class="reveal">
+        <p class="eyebrow" data-i18n="d.eyebrow">Dalam pengembangan · Perangkat fisik</p>
+        <h2 id="t-device" style="margin-top:18px" data-i18n="d.head">Utsman Device</h2>
+        <p class="device-lede" data-i18n="d.sub">
+          Selain lewat WhatsApp dan Telegram, Utsman sedang dikembangkan dalam bentuk perangkat meja berbasis SenseCAP Watcher — siap diajak bicara dan memproses tangkapan kamera langsung di jaringan lokal.
+        </p>
+        <ul class="device-list">
+          <li data-i18n="d.l1">Tampilan layar bundar penuh 360×360 dengan antarmuka "Mendengarkan..."</li>
+          <li data-i18n="d.l2">Tersambung ke server lokal utsman.local via MQTT &amp; pengaturan QR Wi-Fi</li>
+          <li data-i18n="d.l3">Pengambilan foto kamera resolusi penuh 480×480 untuk analisis server</li>
+        </ul>
+        <div class="hero-actions" style="margin-top:26px">
+          <a class="btn btn-primary" href="/blog/utsman-device-progres-perangkat-fisik/" data-i18n="d.cta" data-i18n-href="d.blogHref">Baca catatan progres</a>
+        </div>
+      </div>
+
+      <div class="device-card reveal">
+        <div class="device-photo">
+          <img src="/assets/utsman-device-watcher.jpg" width="960" height="1280"
+               alt="Prototipe Utsman Device berbasis SenseCAP Watcher dengan layar bundar menampilkan avatar Utsman dan status Mendengarkan"
+               data-i18n-alt="d.photo.alt" loading="lazy" decoding="async">
+          <span class="profile-badge" data-i18n="d.badge">Prototipe aktif</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ================= KEAMANAN ================= -->
-  <section id="aman" aria-labelledby="t-aman">
+  <section class="band" id="aman" aria-labelledby="t-aman">
     <div class="wrap">
       <div class="trust reveal">
         <div class="section-head" style="margin-bottom:0">
@@ -503,13 +535,14 @@
       <a href="#kagunaan" data-i18n="nav.usage">Kegunaan</a>
       <a href="#cara" data-i18n="nav.how">Cara kerja</a>
       <a href="#teknologi" data-i18n="nav.tech">Teknologi</a>
+      <a href="#device" data-i18n="nav.device">Perangkat</a>
       <a href="/blog/" data-i18n="nav.blog">Blog</a>
       <a href="mailto:bahzimadina@gmail.com?subject=Utsman.works%20—%20beri%20tahu%20saya" data-i18n="f.email">Email</a>
     </div>
   </div>
 </footer>
 
-<script src="/assets/i18n.js?v=20261005-1" defer></script>
+<script src="/assets/i18n.js?v=20261118-1" defer></script>
 <script>
   // Animasi muncul perlahan — dilewati bila pengguna memilih mengurangi gerakan.
   (function () {
